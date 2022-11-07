@@ -1,6 +1,6 @@
 ---
 title: "Introducción a los Sistemas Operativos"
-subtitle: "Introducción a los SO GNU/Linux"
+subtitle: "Introducción"
 date: "today"
 author: "Diego Saavedra García"
 lang: "es"
@@ -95,7 +95,7 @@ Los Sistemas Operativos son programas que permiten manipular con software las pa
 Dentro de las principales empresas que utilizan GNU/Linux se encuentran:
 
 |           |                                                                                                                    |
-|:---------:|:------------------------------------------------------------------------------------------------------------------:|
+|:-----------:|:---------------------------------------------------------:|
 |  Netflix  |                                      ![](img/th-3406023872.jpg){width="200"}                                       |
 | Instagram |                           ![](img/1200px-Instagram_logo_2016.svg-1-min.png){width="200"}                           |
 |   Yahoo   |                                       ![](img/Yahoo-Emblem.png){width="200"}                                       |

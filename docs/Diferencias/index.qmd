@@ -1,0 +1,138 @@
+---
+title: "Diferencias de los SO"
+subtitle: "Ecosistema GNU/Linux"
+date: "today"
+author: "Diego Saavedra García"
+lang: "es"
+format:
+  revealjs:
+    #chalkboard: 
+      #buttons: false
+    #toc: true
+    incremental: false
+    slide-number: true
+    preview-links: auto
+    logo: img/logo_uide.png
+    #css: styles.css
+    footer: <https://www.uide.edu.ec>
+    theme: dark
+    makeindex: true
+    #multiplex: true
+    transition: fade
+    chalkboard: true #Pizarra
+    auto-stretch: false
+    smaller: false
+    scrollable: true
+    presentation-title-slide-text-alig: left
+    presentation-slide-text-align: justify
+    #menu: true
+  #html: 
+    #code-fold: true
+    #html-math-method: katex
+    #multiplex: true
+    #transition: fade
+    #auto-stretch: false
+editor: visual
+execute: 
+  echo: true
+    
+bibliography: Bibliografia.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
+editor_options: 
+  chunk_output_type: console
+---
+
+## Generalidades.
+
+Dentro del mundo GNU/Linux existen distintos tipos de Distribuciones, Entornos Gráficos, Gestor de Paquetes, Software, que es necesario saber con que tipo de Distribución estamos trabajando para poder aplicar lo que sea necesario en la Administración de este tipo de sistemas.
+
+## Agenda.
+
+-   Debian Gnu/Linux.
+
+    -   Gestor de paquetes de Debian.
+
+    -   ¿Quien patrocina Debian?
+
+    -   Distribuciones basadas en Debian GNU/Linux.
+
+-   Red Hat.
+
+    -   Gestor de Paquetes
+
+    -   ¿Quien patrocina Red Hat?
+
+    -   Distribuciones basadas en Red Hat
+
+-   Práctica.
+
+## Debian GNU/Linux.
+
+![](img/maxresdefault.jpg){fig-align="center"}
+
+Una gran familia de Gnu/Linux están basados en el SO (Sistema Operativo) Debian GNU/Linux.
+
+Debian conocido como el Sistema Operativo Universal tiene distintas características.
+
+**Comunidad.** Posee una gran comunidad de usuarios que en la actualidad colaboran en el soporte de paquetes, desarrollo de aplicaciones y mantenimiento de foros.
+
+Es un proyecto que tiene detrás una gran comunidad de desarrolladores y usuarios que mantienen este SO Gnu/Linux, el sistema se encuentra pre-compilado, empaquetado y en un formato sencillo para múltiples arquitecturas.
+
+Este SO nace en agosto de 1993 según su [página oficial](https://www.debian.org/intro/people). cuando **Ian Murdock** empezó a trabajar en un nuevo SO que se realizaría de manera abierta, en línea con el espíritu de Linux y GNU. Envió una invitación abierta a otros desarrolladores de Software pidiendo que contribuyeran a una distribución basada en el núcleo Linux, que era relativamente nuevo en aquel entonces. Debian estaba pensado para ser creado de forma cuidadosa y concienzuda y ser mantenido y soportado con el mismo cuidado, abrazando un diseño abierto, contribuciones y soporte procedentes de la comunidad de software libre.
+
+## **Gestor de Paquetes.**
+
+El sistema de gestión de paquetes Debian actualmente tiene 67801 paquetes disponibles.
+
+Se recomienda utilizar las siguientes:
+
+|          |                                                                                                                                                                                    |
+|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|   apt    |                                Para todas las operaciones de la línea de órdenes, incluida la instalación, eliminación y actualización de paquetes.                                |
+| apt-get  | para llamar desde los archivos de ordenadores al sistema de gestión de paquetes de Debian. Es una opción de reserva en antiguos sistemas Debian en los que apt no está disponible. |
+| aptitude |                   Para la gestión interactiva mediante interfaz de texto para la gestión de los paquetes instalados y búsquedas sobre los paquetes disponibles.                    |
+
+## Quien patrocina Debian.
+
+La comunidad de desarrolladores del proyecto cuenta con la representación de Software in the Public Interest, una organización sin fines de lucro que da cobertura legal a varios proyectos de software libre.
+
+![](img/Screenshot%202022-11-07%20at%2004-48-19%20Patrocinadores%20de%20todos%20los%20sitios%20de%20r%C3%A9plica%20de%20Debian.png){fig-align="center"}
+
+## Distribuciones basadas en Debian.
+
+En la actualidad existen múltiples distribuciones basadas en Debian, la misma ha demostrado estabilidad y utilidad, muchos desarrolladores la toman como distribución base.
+
+Las distribuciones más sobresalientes en las que está basada esta distribución son:
+
+|            |                                                                                                          |
+|:----------:|:--------------------------------------------------------------------------------------------------------:|
+| Linux Mint | ![](img/linux-mint-19-tara-beta-released-with-cinnamon-mate-and-xfce-editions-521387-3.jpg){width="500"} |
+|   Ubuntu   |                                  ![](img/1450786498_1.jpg){width="500"}                                  |
+
+## Red Hat.
+
+![](img/redhat-1.png){fig-align="center"}
+
+Red Hat Linux fue una de las primeras y más populares distribuciones de Linux . Esto se debió en gran parte a que, si bien había disponible una versión con soporte de pago, también estaba disponible una versión de descarga gratuita. Dado que la única diferencia entre la opción de pago y la opción gratuita era el soporte, un gran número de personas optaron por utilizar la versión gratuita. Derivados de Red Hat Enterprise Linux.
+
+## **Gestor de Paquetes.**
+
+La gestión de paquetes según su [página oficial](https://access.redhat.com/documentation/es-es/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/managing-software-packages_configuring-basic-system-settings) utiliza RHEL 8, la instalación de software está habilitada por la nueva versión de la herramienta YUM herramienta (YUM v4), que se basa en la tecnología **DNF**.
+
+## Quien patrocina Red Hat.
+
+Red Hat es una compañía que lleva alrededor de 30 años en el mercado, su modelo de negocio está basado en el soporte de Sistemas Operativos como Red Hat, intentan adaptar su solución a cada cliente.
+
+## Distribuciones basadas en Red Hat.
+
+En la actualidad existen múltiples distribuciones basadas en Red Hat:
+
+| Fedora Linux  |                                                                                  |
+|:-------------:|:--------------------------------------------------------------------------------:|
+| CentOS Stream |                     ![](img/CentOS-Stream.jpg){width="500"}                      |
+|  Rocky Linux  | ![](img/rocky-linux-8-4-green-obsidian-primera-version-estable.jpg){width="500"} |
+|  Alma Linux   |                       ![](img/Alma-Linux.jpg){width="500"}                       |
+
+# Práctica.
+
+Realiza la instalación de **Debian GNU/Linux** y **Fedora GNU/Linux** en el Software de Virtualziación **Virtualbox**, para ello es necesario la descarga del archivo ISO desde sus páginas oficiales.
