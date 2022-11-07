@@ -39,6 +39,6 @@ execute:
 
 # Indice
 
-## [Introducción](https://5t4t1ck.github.io/Introduccion-a-los-SO/Intro/)
+## [Introducción](https://5t4t1ck.github.io/Introduccion-SO/Intro/)
 
-## [Diferencias de los SO](https://5t4t1ck.github.io/Introduccion-a-los-SO/Diferencias/)
+## [Diferencias de los SO](https://5t4t1ck.github.io/Introduccion-SO/Diferencias/)

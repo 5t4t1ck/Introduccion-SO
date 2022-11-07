@@ -87,7 +87,7 @@ El sistema de gestión de paquetes Debian actualmente tiene 67801 paquetes dispo
 Se recomienda utilizar las siguientes:
 
 |          |                                                                                                                                                                                    |
-|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:----------:|:----------------------------------------------------------:|
 |   apt    |                                Para todas las operaciones de la línea de órdenes, incluida la instalación, eliminación y actualización de paquetes.                                |
 | apt-get  | para llamar desde los archivos de ordenadores al sistema de gestión de paquetes de Debian. Es una opción de reserva en antiguos sistemas Debian en los que apt no está disponible. |
 | aptitude |                   Para la gestión interactiva mediante interfaz de texto para la gestión de los paquetes instalados y búsquedas sobre los paquetes disponibles.                    |
@@ -105,7 +105,7 @@ En la actualidad existen múltiples distribuciones basadas en Debian, la misma h
 Las distribuciones más sobresalientes en las que está basada esta distribución son:
 
 |            |                                                                                                          |
-|:----------:|:--------------------------------------------------------------------------------------------------------:|
+|:------------:|:--------------------------------------------------------:|
 | Linux Mint | ![](img/linux-mint-19-tara-beta-released-with-cinnamon-mate-and-xfce-editions-521387-3.jpg){width="500"} |
 |   Ubuntu   |                                  ![](img/1450786498_1.jpg){width="500"}                                  |
 
@@ -128,7 +128,7 @@ Red Hat es una compañía que lleva alrededor de 30 años en el mercado, su mode
 En la actualidad existen múltiples distribuciones basadas en Red Hat:
 
 | Fedora Linux  |                                                                                  |
-|:-------------:|:--------------------------------------------------------------------------------:|
+|:-------------:|:------------------------------------------------------:|
 | CentOS Stream |                     ![](img/CentOS-Stream.jpg){width="500"}                      |
 |  Rocky Linux  | ![](img/rocky-linux-8-4-green-obsidian-primera-version-estable.jpg){width="500"} |
 |  Alma Linux   |                       ![](img/Alma-Linux.jpg){width="500"}                       |
