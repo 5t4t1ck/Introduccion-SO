@@ -41,4 +41,4 @@ execute:
 
 ## [Introducción](https://5t4t1ck.github.io/Introduccion-a-los-SO/Intro/)
 
-## [Diferencias](https://5t4t1ck.github.io/Introduccion-a-los-SO/Diferencias/)
+## [Diferencias de los SO](https://5t4t1ck.github.io/Introduccion-a-los-SO/Diferencias/)
