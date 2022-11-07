@@ -1,0 +1,130 @@
+---
+title: "Introducción a los Sistemas Operativos"
+subtitle: "Introducción a los SO GNU/Linux"
+date: "today"
+author: "Diego Saavedra García"
+lang: "es"
+format:
+  revealjs:
+    #chalkboard: 
+      #buttons: false
+    #toc: true
+    incremental: false
+    slide-number: true
+    preview-links: auto
+    logo: img/logo_uide.png
+    #css: styles.css
+    footer: <https://www.uide.edu.ec>
+    theme: dark
+    makeindex: true
+    #multiplex: true
+    transition: fade
+    chalkboard: true #Pizarra
+    auto-stretch: false
+    smaller: false
+    scrollable: true
+    presentation-title-slide-text-alig: left
+    presentation-slide-text-align: justify
+    #menu: true
+  #html: 
+    #code-fold: true
+    #html-math-method: katex
+    #multiplex: true
+    #transition: fade
+    #auto-stretch: false
+editor: visual
+execute: 
+  echo: true
+    
+bibliography: Bibliografia.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
+editor_options: 
+  chunk_output_type: console
+---
+
+## Generalidades.
+
+Los Sistemas Operativos son programas que permiten manipular con software las partes físicas de los computadores (el disco duro, la memoria, el procesador) así como los diferentes periféricos de entrada y salida de una computadora.
+
+## Agenda.
+
+-   Introducción a Gnu/Linux
+
+    -   Gnu/Linux
+
+    -   Características.
+
+-   ¿Quien Utiliza GNU/Linux?
+
+-   Aplicabilidad de Linux.
+
+    -   Actualidad
+
+-   Práctica.
+
+# Introducción a Gnu/Linux.
+
+![](img/michaelretriever-stickers-gnu-linux.png){fig-align="center" width="495"}
+
+## Gnu/Linux.
+
+![](img/gnulinux-logo.webp){fig-align="center" width="413"}
+
+-   Linux, es un sistema operativo (SO) de open source y una plataforma de infraestructura de TI.
+
+-   Originalmente, fue concebido y creado como un pasatiempo por Linux Torvalds.
+
+-   Mientras estaba en la Universidad, Linus intentó crear una versión de open source, alternativa y gratuita, del Sistema Operativo MINIX, que se basaba en los principios y el diseño de UNIX.
+
+-   Desde entonces, ese pasatiempo se ha convertido en el SO con la base más grande de usuarios, es el SO más usado en servidores de Internet disponibles públicamente y en el único SO usado en las 500 principales supercomputadoras más rápdas del mundo.
+
+## Características.
+
+![](img/1366_2000.png){fig-align="center" width="488"}
+
+-   Tal vez lo mejor sobre Linux es que es open source.
+
+-   Linux se lanza en virtud de la Licencia de uso público GNU (GPL). Esto significa que todos pueden **ejecutar, estudiar, compartir y modificar el software** (4 Libertades del Software Libre).
+
+-   El código modificado también se puede redistribuir e incluso vender, pero todo esto se debe hacer con la misma licencia.
+
+-   Esto difiera en gran medida de los sistemas operativos tradicionales (por ejemplo, Unix y Windows). que son propietarios (privativos), están bloqueados, se utilzian cómo están y no se pueden modificar.
+
+## ¿Quien utiliza GNU/Linux?
+
+Dentro de las principales empresas que utilizan GNU/Linux se encuentran:
+
+|           |                                                                                                                    |
+|:---------:|:------------------------------------------------------------------------------------------------------------------:|
+|  Netflix  |                                      ![](img/th-3406023872.jpg){width="200"}                                       |
+| Instagram |                           ![](img/1200px-Instagram_logo_2016.svg-1-min.png){width="200"}                           |
+|   Yahoo   |                                       ![](img/Yahoo-Emblem.png){width="200"}                                       |
+|  Google   | ![](img/purepng.com-google-logo-2015brandlogobrand-logoiconssymbolslogosgoogle-6815229372333mqrr.png){width="200"} |
+
+## Aplicabilidad de Linux.
+
+### Actualidad.
+
+-   Sistema de Control de Tráfico: Cada vez que más ciudades del mundo confían en GNU/Linux para administrar sus servicios de control de tráfico urbano. Nueva York, San Francisco y Los Ángeles son algunas de ellas.
+
+-   La flota de submarinos nucleares de la Marina Estadounidense: Los submarinos nucleares estadounidenses, de los más avanzados y letales del mundo, usan una distro basada en Red Hat para controlar todos los sistemas a bordo.
+
+-   El tren bala japonés: El sistema ferroviario más popular del mundo confía en GNU/Linux para llegar siempre a tiempo. Entre Tokyo y Osaka, las dos ciudades más grandes de Japón, circula un tren cada 3 minutos en cada dirección. Cada año, Shinkansen (Nombre japonés del tren bala) transporta más de 151 millones de pasajeros por año, a una velocidad máxima de 320 km/h.
+
+-   las Bolsas de valores de Nueva York y Londres: La NYSE (New York Stock Exchange) es la bolsa más activa del planeta, en ella se venden y compran más de 150 billones de dólares en acciones y bonos todos los días.
+
+-   El 91% de las supercomputadoras del mundo: De las 500 computadoras más potentes del mundo 455 usan sistemas operativos de la familia GNU/Linux.
+
+# Práctica.
+
+## Instalación de Virtual.
+
+![](img/Captura%20desde%202022-11-07%2004-06-26.png){fig-align="center"}
+
+## Configuración del Entorno.
+
+![](img/Captura%20desde%202022-11-07%2004-09-56.png){fig-align="center"}
+
+## Particionamiento Experto/Novato.
+
+![](img/Captura%20desde%202022-11-07%2004-08-41.png){fig-align="center"}
